@@ -21,3 +21,4 @@ def test_divide_by_zero():
 def test_square():
     assert square(2) == 4
     assert square(4) == 16
+    assert square(-2) == 4
